@@ -1,0 +1,41 @@
+%ul.nav#main-menu-left
+  %li<
+    %a(onclick="pageTracker._link(this.href); return false;" href="http://news.bootswatch.com/") News
+  %li<
+    %a#swatch-link(href="http://bootswatch.com/#gallery") Gallery
+  %li.dropdown
+    %a.dropdown-toggle(data-toggle="dropdown" href="#")<
+      Preview
+      %b.caret>
+    %ul.dropdown-menu#swatch-menu
+      %li<
+        %a(href="/default") Default
+      %li.divider
+      %li<
+        %a(href="/amelia") Amelia
+      %li<
+        %a(href="/cerulean") Cerulean
+      %li<
+        %a(href="/cyborg") Cyborg
+      %li<
+        %a(href="/journal") Journal
+      %li<
+        %a(href="/readable") Readable
+      %li<
+        %a(href="/simplex") Simplex
+      %li<
+        %a(href="/slate") Slate
+      %li<
+        %a(href="/spacelab") Spacelab
+      %li<
+        %a(href="/spruce") Spruce
+      %li<
+        %a(href="/superhero") Superhero
+      %li<
+        %a(href="/united") United
+
+%ul.nav.pull-right#main-menu-right
+  %li<
+    %a(rel="tooltip" target="_blank" href="http://builtwithbootstrap.com/" title="Showcase of Bootstrap sites &amp; apps")<
+      Built With Bootstrap
+      %i.icon-share-alt>

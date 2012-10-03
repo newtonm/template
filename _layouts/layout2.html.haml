@@ -8,14 +8,14 @@
       body {
         padding-top: 60px;
       }
-    %link{ :rel=>'stylesheet', :type=>'text/css', :href=>"#{site.base_url}/stylesheets/styles.css" }
+    %link(href="../../stylesheets/#{page.theme}/styles.css" rel="stylesheet")
     /[if lt IE 9]
       %script{ :type=>'text/javascript', :src=>'//html5shim.googlecode.com/svn/trunk/html5.js' }
   %body
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          %a.brand{ :href=>"#{site.base_url}" } Project Name
+          %a.brand{ :href=>"#{site.base_url}" } Layout 2
           %ul.nav
             %li
               %a{ :href=>"#{site.base_url}" } Home

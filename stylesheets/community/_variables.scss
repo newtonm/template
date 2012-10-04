@@ -1,13 +1,8 @@
 // Variables to customize the look and feel of Bootstrap
 // -----------------------------------------------------
 
-
-
-
-
 // GLOBAL VALUES
 // --------------------------------------------------
-
 
 // Grays
 // -------------------------
@@ -18,7 +13,6 @@ $gray:                  #8c8f91;
 $grayLight:             #d5d5d5;
 $grayLighter:           #e6e7e8;
 $white:                 #fff;
-
 
 // Accent colors
 // -------------------------
@@ -31,18 +25,15 @@ $orange:                #f89406;
 $pink:                  #c3325f;
 $purple:                #7a43b6;
 
-
 // Scaffolding
 // -------------------------
 $bodyBackground:        #F3F3F3;
 $textColor:             $grayDark;
 
-
 // Links
 // -------------------------
 $linkColor:             #369;
 $linkColorHover:        darken($linkColor, 15%);
-
 
 // Typography
 // -------------------------
@@ -59,14 +50,12 @@ $headingsFontFamily:    "OswaldBold", Helvetica, Arial, sans-serif;
 $headingsFontWeight:    inherit;    // instead of browser default, bold
 $headingsColor:         $grayDarker; // empty to use BS default, $textColor
 
-
 // Tables
 // -------------------------
 $tableBackground:                   transparent; // overall background-color
 $tableBackgroundAccent:             #f9f9f9; // for striping
 $tableBackgroundHover:              #f5f5f5; // for hover
 $tableBorder:                       #ddd; // table and cell border
-
 
 // Buttons
 // -------------------------
@@ -92,7 +81,6 @@ $btnDangerBackgroundHighlight:      #bd362f;
 $btnInverseBackground:              $gray;
 $btnInverseBackgroundHighlight:     $grayDarker;
 
-
 // Forms
 // -------------------------
 $inputBackground:               $white;
@@ -111,8 +99,6 @@ $dropdownLinkBackgroundHover:   $linkColor;
 $dropdownDividerTop:            #e5e5e5;
 $dropdownDividerBottom:         $white;
 
-
-
 // COMPONENT VARIABLES
 // --------------------------------------------------
 
@@ -127,22 +113,18 @@ $zindexFixedNavbar:       1030;
 $zindexModalBackdrop:     1040;
 $zindexModal:             1050;
 
-
 // Sprite icons path
 // -------------------------
 $iconSpritePath:          url("/images/glyphicons-halflings.png");
 $iconWhiteSpritePath:     url("/images/glyphicons-halflings-white.png");
 
-
 // Input placeholder text color
 // -------------------------
 $placeholderText:         $grayLight;
 
-
 // Hr border color
 // -------------------------
 $hrBorder:                $grayLighter;
-
 
 // Navbar
 // -------------------------
@@ -163,13 +145,11 @@ $navbarSearchBorder:              darken($navbarSearchBackground, 30%);
 $navbarSearchPlaceholderColor:    #ccc;
 $navbarBrandColor:                $navbarLinkColor;
 
-
 // Hero unit
 // -------------------------
 $heroUnitBackground:              $grayLighter;
 $heroUnitHeadingColor:            $grayDarker;
 $heroUnitLeadColor:               inherit;
-
 
 // Form states and alerts
 // -------------------------
@@ -188,8 +168,6 @@ $successBorder:           darken(adjust-hue($successBackground, -10), 5%);
 $infoText:                #3a87ad;
 $infoBackground:          #d9edf7;
 $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%);
-
-
 
 // GRID
 // --------------------------------------------------

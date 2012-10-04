@@ -87,7 +87,10 @@
                 =precede 'Layouts ' do
                   %b.caret>
               %ul.dropdown-menu
-                ~ content
+                -@page.links.each do |link|
+                  %li<
+                    %a(href="/bootstrap/#{page.theme}/#{link}.html") #{link}
+               
       / =========================Typography=========================
       %section#typography
         .page-header
